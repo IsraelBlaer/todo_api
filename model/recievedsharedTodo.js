@@ -22,10 +22,7 @@ const recievedSharedTodoSchema = new mongoose.Schema({
       default:false
     },
     comments: [
-    //     { 
-    //  text : { type: String},
-    //  userName : { type: String} 
-    // } 
+    
     CommentSchema
     ],
     sharedBy: { type: String },
